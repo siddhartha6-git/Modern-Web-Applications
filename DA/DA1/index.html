@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <title>Profile-Page</title>
+            <meta charset="UTF-8">
+            <meta name="description" content="Siddhartha Profile">
+            <meta name="keywords" content="Contact, Summary, Eduction, Achievement, Ideals">
+            <meta name="author" content="siddpurwar@gmail.com">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- CSS only -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- ################################### NAVIGATION BAR ############################# -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">My Profile</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link active">Home</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Educational details</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Hobbies</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Achievement</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">My Ideals</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <div>
+
+        
+        <!-- ################################### ALERT MESSAGE ############################# -->
+        <hr>
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <h3 class="alert-heading">Welcome!</h3>
+            <hr>
+            <p>
+                <b>I am </b> happy to have you here today
+            </p>
+            <hr>
+            <p class="mb-0">
+                I have given a very brief summary about me, feel free to reach out me through the <a href="#form-section" class="alert-link">contact form</a> given below.                   
+            </p>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <br>
+
+
+        <!-- ################################### CONTENT ############################# -->
+        <p>
+            I am an <b>aspiring full-stack developer</b> and also have interset in DevOps dimensions; and also love to play with data. I work with <b>python</b> mostly and also use <b>HTML/CSS/JavaScript</b>. Leaning Azure is also a part of my day. I have a basic understanding of <b>data analysis, SQL and marketing</b>.
+        </p>
+        <p>
+            Apart from this, I do competitive programming as a hobby Some of the transferable skills that I have are <b>design thinking, solving problems, critical thinking, and Leadership</b>.
+
+            Meeting Mr. Azim Premji in 2014 as a winner of the WIPRO Earthian Award is the most wonderful moment that I have and so proud of it.
+        </p>
+        <p>
+            I <b>love to solve problems</b> that I face in real life. If I do not how to solve the problem, then I push myself to learn new skills to tackle the problem. As a self-learner, it is always fun for me to learn new things.
+            Being a <b>self-learner</b>, make me a <b>self-disciplined</b> and <b>self-accountable</b> person. And these personality traits have naturally developed a high work ethic in me. 
+
+        </p>
+        <p>
+            Currently I am working on an <b>e-commerce website</b> that we connect buyer and seller just with no middle man unlike flipkart and amazon, it will be same as zomato and swiggy concept where buyer will buyer from seller near there locality.
+        </p>
+        <p>
+        I also emphasize a lot on <b>well-beingness</b> and as a part of this, I like planting and studying human behavior. Because doing such things keep me motivated, calm and composed, and optimistic toward life
+        </p>
+        </div>
+    </div>
+
+
+        <!-- ################################### FORM[CONTACT] ############################# -->
+        <hr>
+        <div class="container" id="form-section"> 
+            <form>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="messagetype">Message Type</label>
+                    </div>
+                    <select class="custom-select" id="messagetype">
+                        <option selected>General</option>
+                        <option value="1">Business</option>
+                        <option value="2">Projects</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="gmail username">
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                    </div>
+                  </div>                  
+                <div class="mb-3">
+                    <label for="message" class="col-sm-3 col-from-label">Message</label>
+                    <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Leave your thoughts here....."></textarea>                    <div class="form-text">We will keep your message confidential</div>  
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">You would like to contact you back</label>
+                  </div>
+                <button type="submit" class="btn btn-primary">Leave Feedback!</button>
+                </div>
+            </form>
+        </div>
+        <br>
+        <hr>
+
+
+        <!-- ################################### FORM[DONATION] ############################# -->
+        <div class="container">
+            <form>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <select class="custom-select" id="messagetype">
+                                <option selected>&#x20B9;</option>
+                                <option value="1">&#36;</option>
+                                <option value="2">&#163;</option>
+                            </select>
+                        </span>
+                    </div>
+                    <input type="number" class="form-control" value="10">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-primary" type="submit">Share my Love</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br>
+
+        <!-- ################################### JUMBOTRON[CONNECTION INFO] ############################# -->
+        <div class="jumbotron">
+            <h1 class="display-4">Let's connect Together...</h1>
+            <hr class="my-4">
+            <p><a href="#">Linkedin</a></p>
+            <p><a href="#">GitHub</a></p>
+            <hr class="my-4">
+          </div>
+    </body>
+
+    <footer>
+        <!-- ################################### BREADCRUMB ############################# -->        
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">My Profile</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Welcome Page</li>
+            </ol>
+          </nav>
+    </footer>
+
+</html>
