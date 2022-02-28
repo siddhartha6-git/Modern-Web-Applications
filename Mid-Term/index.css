@@ -1,0 +1,38 @@
+body {
+    max-width: 100%;
+    margin: auto;
+    font-family: Times New Roman, Times, serif;
+}
+
+h1 {
+    color: rgb(0, 47, 201);
+    text-align: center;
+}
+
+form {
+    margin: 1px;
+}
+
+#req{
+    color: rgb(218, 9, 9);
+}
+
+#email-txt-1 {
+    color: rgb(218, 9, 9);
+    text-align: left;
+    margin-top: -1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+#email-txt-2 {
+    color: rgb(0, 183, 255);
+    text-align: left;
+    margin-top: -1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+#form-ele {
+    margin: 2%;
+}
