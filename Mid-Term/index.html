@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Siddhartha">
+        <meta name="description" content="Form Validation">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <h1>Registration From</h1>
+        <form name="form" id="form" onsubmit="return validate_form()">
+            <div id="form-ele">
+                <label for="fname">First Name (Minimum 6 character)<span id="req">*</span></label>
+                <input type="text" id="fname" >
+            </div>
+            <div id="form-ele">
+                <label for="lname">Last Name<span id="req">*</span></label>
+                <input type="text" id="lname" >
+            </div>
+            <div id="form-ele">
+                <label for="email">EmailAddress<span id="req">*</span></label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div id="email-txt-1">(one e-mail id only) <span id="email-txt-2"> e.g. siddpurwar@gmail.com </span></div>
+            <div id="form-ele">
+                <label for="password">Password(Minimum 6 character)<span id="req">*</span></label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div id="form-ele">
+                <label for="address">Address<span id="req">*</span></label>
+                <textarea id="address" name="address" rows="4"></textarea>
+            </div>
+            <div id="form-ele">
+                <label for="phone">Mobile No<span id="req">*</span></label>
+                <input type="text" id="phone" name="phone" >
+            </div>
+            <div id="form-ele">
+                Gender:
+                <input type="radio" name="gender1" id="gender1" value="male">
+                <label for="inlineRadio1">male</label>
+                <input type="radio" name="gender2" id="gender2" value="female">
+                <label for="inlineRadio2">female</label>
+            </div>
+            <div id="form-ele">
+                <div>
+                    <div>
+                        <input type="submit" value="Submit">
+                        <input type="button" value="Reset" onclick="reset_form()">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
